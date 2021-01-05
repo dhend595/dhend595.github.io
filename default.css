@@ -198,14 +198,17 @@ h6 {
 
 #light-theme {
   border-color: #99aab5;
+  background-color: #7289da;
 }
 
 #theme-95 {
   border-color: #ffcc00;
+  background-color: #0089c0;
 }
 
 #theme-hackerman {
-  border-color: #22b455;
+  border-color: #92e5a1;
+  background-color: #22b455;
 }
 
 #setting-note {
