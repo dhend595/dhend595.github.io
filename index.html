@@ -9,10 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="default.css">
-  <link rel="stylesheet" href="dark.css" id="theme-style">
-  <link rel="stylesheet" href="light.css" id="theme-style">
-  <link rel="stylesheet" href="hackerman.css" id="theme-style">
-  <link rel="stylesheet" href="win-nine-five.css">
+  <link rel="stylesheet" href="" id="theme-style">
+
 </head>
 <body>
   <section class="s1">
@@ -41,12 +39,11 @@
           <img src="images/image0.jpeg" id="profile-pic">
           <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
           <div id="theme-options-wrapper">
-            <div class="theme-dot" id="dark-theme"></div>
-            <div class="theme-dot" id="light-theme"></div>
-            <div class="theme-dot" id="theme-95"></div>
-            <div class="theme-dot" id="theme-hackerman"></div>
+            <div data-mode="dark" class="theme-dot" id="dark-theme"></div>
+            <div data-mode="light" class="theme-dot" id="light-theme"></div>
+            <div data-mode="ninefive" class="theme-dot" id="theme-95"></div>
+            <div data-mode="hackerman" class="theme-dot" id="theme-hackerman"></div>
           </div>
-          <p id="setting-note">Theme options will be saved for <br>your next visit.</p>
         </div>
         <div class="right-column">
           <div id="preview-shadow">
@@ -168,6 +165,6 @@
   </section>
 
   <script src="https://kit.fontawesome.com/5403232231.js" crossorigin="anonymous"></script>
-
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
