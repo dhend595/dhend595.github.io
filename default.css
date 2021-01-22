@@ -292,6 +292,10 @@ h6 {
   align-content: center;
   text-align: center;
 }
+.fab {
+  padding-top: 10px;
+  font-size: 20px;
+}
 
 #social-img {
   width: 100%;
