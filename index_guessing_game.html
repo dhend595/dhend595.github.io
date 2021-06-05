@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="header">
+
+        <div class="text-style">
+          <h1>GUESSING GAME</h1>
+        </div>
+
+        <div class="stripe">
+          <span id="message"></span>
+        </div>
+      </div>
+
+      <div id="body">
+
+        <div id="input">
+          <h4>Guess Between 1 - 100</h4>
+          <h2>Type Guess Here!</h2>
+          
+          <input id="player-input" type="text" maxlength="3" name="guess" value="">
+          <br>
+        </div>
+
+        <div class="guess-bar">
+          <br>
+          <button type="button" id="submit">Submit Guess</button>
+          <button type="button" id="hint">HINT</button>
+          <button type="submit" onClick="refreshPage()" id="reset">Reset Game</button>
+        </div>
+
+        <div class="guesses">
+          <div class="text-style">
+            <h3>PREVIOUS GUESSES</h3>
+          </div>
+          <br>
+            <ul id="guess-list">
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+            </ul>
+
+        </div>
+        <br>
+        <h4> Let's vibe.</h4>
+        <audio controls autoplay,
+        src="media\herbal-tea.mp3">
+      </div>
+      <div id="footer">
+
+          <h3>By Doug Henderson | <a href="https://github.com/dhend595"><i class="fab fa-github"></i></a></h3>
+      </div>
+
+
+    <script src='js\guessing-game.js'></script>
+
+
+  </div>
+  </body>
+
+</html>
